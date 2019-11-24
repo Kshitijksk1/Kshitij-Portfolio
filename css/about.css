@@ -1,0 +1,59 @@
+.split {
+  height: 300px;
+  width: 48%;
+  z-index: 1;
+  top: 0;
+  position: relative;
+  padding-top: 20px;
+  
+}
+
+/* Control the left side */
+.s-left {
+  float: left;
+  margin-top: 2%;
+  margin-left: 1%;
+  left: 0;
+}
+
+/* Control the right side */
+.s-right {
+  float: right;
+  margin-top: 2%;
+  right: 0;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 0px;
+  left: 15%;
+  /*transform: translate(-50%, -50%);*/
+  text-align: left;
+}
+
+.centered h2{
+  font-family: "Montserrat";
+  text-align: left;
+  color: black;
+  font-size: 2vw;
+}
+
+.centered p{
+  font-family: "Montserrat";
+  text-align: left;
+  color: black;
+
+}
+
+
+.container2{
+  position: absolute;
+  margin-left: 10%;
+  margin-top: 2%;
+  width: 80%;
+  height: 300px;
+  background-color:white ;
+  border: 1px groove;
+  box-shadow: 10px 10px 10px #bababa;
+}

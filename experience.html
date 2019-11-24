@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/styles.css" rel="stylesheet" type="text/css"  />
+     <link href="css/experience.css" rel="stylesheet" type="text/css"  />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="JS/test.js" defer></script>
+  </head>
+  <body >
+    <div class="container1">
+    <nav class="navbar1">
+          <div class="left"><a href="index1.html">Kshitij S Khaladkar</a></div>
+          <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </a>
+          <div class="right">
+            <ul>
+              <li><a href="about.html">About</a></li>
+              <li><a href="skills.html">Skills</a></li>
+              <li><a href="education.html">Education</a></li>
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li><a href="experience.html">Experience</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="hireme.html">Hire Me</a></li>
+              <li><a href="blogs.html">Blog</a></li>
+              <li><a onclick="document.getElementById('login').style.display='block'" style="width:auto;" class="popup">Login</a></li>
+              <li><a onclick="document.getElementById('signup').style.display='block'" style="width:auto;" class="popup">Sign Up</a></li>
+            </ul>
+          </div>
+        </nav>
+        <div id="login" class="form">
+
+                <form class="form-content" action="connectivity-login.php" method="POST">
+                    <div class="header">
+                        <h2>Login </h2>
+                        <span onclick="document.getElementById('login').style.display='none'" class="close" title="Close">&times;</span>
+                    </div>
+                    <hr>
+                    <div class="container4">
+                        <label><b>User:</b></label>
+                        <input type="text" placeholder="Enter Username" required>
+
+                        <label><b>Password:</b></label>
+                        <input type="password" placeholder="Enter Password" required>
+                        <button type="button" onclick="document.getElementById('login').style.display='none'" id="button1">Close</button>
+
+                        <button type="submit" id="button">Get In</button>
+
+                    </div>
+                </form>
+            </div>
+            <div id="signup" class="form">
+
+                <form class="form-content" method="POST" action="connectivity-signup.php" >
+                    <div class="header">
+                        <h2>Sign Up </h2>
+                        <span onclick="document.getElementById('signup').style.display='none'" class="close" title="Close">&times;</span>
+                    </div>
+                    <hr>
+                    <div class="container4">
+                        <label><b>Name:</b></label>
+                        <input type="text" placeholder="Enter Name" name="name" required>
+
+                        <label><b>Organization:</b></label>
+                        <input type="text" placeholder="Organization Name" name="org" required>
+
+                        <label><b>Email:</b></label>
+                        <input type="email" placeholder="Enter Email" name="email" required>
+
+                        <label><b>Password:</b></label>
+                        <input type="password" placeholder="Enter Password" name="pass" required>
+
+                        <label><b>Confirm Password:</b></label>
+                        <input type="password" placeholder="Confirm Password" name="cpass" required>
+                        
+                        <button type="button" onclick="document.getElementById('login').style.display='none'" id="button1" >Close</button>
+
+                        <button type="submit" id="button" name="submit">Sign Up</button>
+
+                    </div>
+                </form>
+            </div>
+
+<div class="wrapper">
+<h2>Work Experience</h2>
+
+<div id="wrapper">
+<section class="bord">
+  <p id="id">
+  March 2016 - Present<br><br>
+  <strong>Diaz Apps</strong>
+  </p>
+  
+  <article class="univ">
+    <h2 id="left">Front End Developer</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.   </p>
+  </article>
+</section>
+
+<section class="bord">
+  <p id="id">
+  April 2015 - March 2016<br><br>
+  <strong>Nestle Venezuela</strong>
+  </p>
+  
+  <article  class="univ">
+  <h2 id="left">Web Developer</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  </p>
+  </article>
+</section>
+
+<section class="bord">
+  <p id="id">
+  January 2013 - February 2015<br><br>
+  <strong>Government of State Of Lara</strong>
+  </p>
+  
+  <article class="univ">
+    <h2 id="left">Intern</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  </p>
+  </article>
+</section>
+</div>
+
+</body>
+</html>
